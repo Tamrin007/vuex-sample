@@ -9,6 +9,7 @@ import App from './App'
 new Vue({
   store,
   el: '#app',
+  template: '<App/>',
   components: {
     App
   }

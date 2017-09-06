@@ -2,7 +2,7 @@
 <main class="mdl-layout__content">
   <div class="page-content">
     <search></search>
-    <card v-for="gif in gifs" :key="gif"></card>
+    <card v-for="gif in gifs" :key="gif.id" :gif="gif"></card>
   </div>
 </main>
 </template>

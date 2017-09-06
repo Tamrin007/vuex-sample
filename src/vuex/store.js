@@ -34,7 +34,7 @@ const actions = {
   }
 }
 const getters = {
-  gifs: state => state.gif
+  gifs: state => state.gifs
 }
 
 const mutations = {
